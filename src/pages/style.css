@@ -1,0 +1,25 @@
+body {
+    background-color: #f8f9fa;
+  }
+  
+  .card {
+    border: none;
+    width: 28rem;
+    background-color: #fff;
+    border-radius: 10px;
+  }
+  
+  .btn-dark {
+    background-color: #343a40;
+    border-color: #343a40;
+  }
+  
+  .btn-dark:hover {
+    background-color: #23272b;
+    border-color: #1d2124;
+  }
+  
+  .form-control:focus {
+    border-color: #343a40;
+    box-shadow: 0 0 0 0.2rem rgba(52, 58, 64, 0.25);
+  }

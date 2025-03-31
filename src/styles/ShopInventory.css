@@ -1,0 +1,124 @@
+.shop-inventory {
+    padding: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .shop-inventory-header {
+    margin-bottom: 2.5rem;
+  }
+  
+  .shop-inventory-header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+    color: #333;
+  }
+  
+  .shop-inventory-header p {
+    color: #666;
+    font-size: 1.1rem;
+  }
+  
+  .inventory-content {
+    display: grid;
+    gap: 2.5rem;
+  }
+  
+  .upload-section {
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+  }
+  
+  .prediction-section {
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+  }
+  
+  .prediction-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #eee;
+  }
+  
+  .prediction-header h2 {
+    font-size: 1.8rem;
+    color: #333;
+  }
+  
+  .prediction-status {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: #27ae60;
+    font-weight: 600;
+  }
+  
+  .status-indicator {
+    width: 12px;
+    height: 12px;
+    background-color: #27ae60;
+    border-radius: 50%;
+    display: inline-block;
+  }
+  
+  .prediction-results {
+    display: grid;
+    gap: 2rem;
+  }
+  
+  .prediction-summary {
+    background-color: #f8f9fa;
+    padding: 1.5rem;
+    border-radius: 8px;
+  }
+  
+  .prediction-summary h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    color: #333;
+  }
+  
+  .prediction-summary ul {
+    margin: 1rem 0;
+    padding-left: 1.5rem;
+  }
+  
+  .prediction-summary li {
+    margin-bottom: 0.5rem;
+  }
+  
+  .prediction-note {
+    font-style: italic;
+    color: #666;
+    margin-top: 1rem;
+    font-size: 0.9rem;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .shop-inventory {
+      padding: 1.5rem;
+    }
+  
+    .shop-inventory-header h1 {
+      font-size: 2rem;
+    }
+  
+    .prediction-header {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 1rem;
+    }
+  
+    .prediction-results {
+      grid-template-columns: 1fr;
+    }
+  }
+  
+  
